@@ -20,6 +20,11 @@
 	#sideBar-text:hover{
 		color: #56d0c1;
 		cursor: default;
+
+	}
+	#sideBar-text{
+		border-bottom: .7px dashed #f1f1f1;
+
 	}
 	#searchmobile{
 		display: none;
@@ -36,7 +41,8 @@
 		padding-top: 3%;
 	}
 	#searchicon{
-		margin-left: 82%;
+		margin-left: 60%;
+		font-size: .9em;
 
 	}
 	#getStarted{
@@ -59,7 +65,6 @@
 		text-align: left;
 		font-size: 1.1em;
 		color: grey;	
-		
 		display: none;
 		margin-top: 15%;
 	}
@@ -110,4 +115,10 @@
 		text-align:center ;
 
 	}
- 
+	#vpn{
+		display: none;
+		margin-top: 5%;
+	}
+	#icon{
+		font-size: 1.3em;
+	}
