@@ -31,6 +31,11 @@ $(document).ready(function(){
         $("#contactdata").hide(); 
     });
 });
+$(document).ready(function(){
+    $("#getStartedShow").click(function(){
+        $("#vpn").hide(); 
+    });
+});
 
 
 //why
@@ -60,7 +65,11 @@ $(document).ready(function(){
         $("#contactdata").hide(); 
     });
 });
-
+$(document).ready(function(){
+    $("#whyShow").click(function(){
+        $("#vpn").hide(); 
+    });
+});
 //Search
 $(document).ready(function(){
     $("#searchshow").click(function(){
@@ -87,6 +96,11 @@ $(document).ready(function(){
         $("#contactdata").hide(); 
     });
 });
+$(document).ready(function(){
+    $("#searchshow").click(function(){
+        $("#vpn").hide(); 
+    });
+});
 
 //News
 $(document).ready(function(){
@@ -105,6 +119,11 @@ $(document).ready(function(){
 });$(document).ready(function(){
     $("#newsshow").click(function(){
         $("#getStarted").hide(); 
+    });
+});
+$(document).ready(function(){
+    $("#newsshow").click(function(){
+        $("#contactdata").hide(); 
     });
 });
 $(document).ready(function(){
@@ -136,6 +155,41 @@ $(document).ready(function(){
         $("#news").hide(); 
     });
 });
+$(document).ready(function(){
+    $("#contact").click(function(){
+        $("#vpn").hide(); 
+    });
+});
+//VPN
+$(document).ready(function(){
+    $("#vpnshow").click(function(){
+        $("#contactdata").hide(); 
+    });
+});
+$(document).ready(function(){
+    $("#vpnshow").click(function(){
+        $("#search").hide(); 
+    });
+});$(document).ready(function(){
+    $("#vpnshow").click(function(){
+        $("#why").hide(); 
+    });
+});$(document).ready(function(){
+    $("#vpnshow").click(function(){
+        $("#getStarted").hide(); 
+    });
+});
+$(document).ready(function(){
+    $("#vpnshow").click(function(){
+        $("#news").hide(); 
+    });
+});
+$(document).ready(function(){
+    $("#vpnshow").click(function(){
+        $("#vpn").fadeToggle(); 
+    });
+});
+
 //Mobile
 
 $(document).ready(function(){
@@ -170,6 +224,11 @@ $(document).ready(function(){
 });
 $(document).ready(function(){
     $("#newsshow").click(function(){
+        $("#sideBar").slideUp(); 
+    });
+});
+$(document).ready(function(){
+    $("#vpnshow").click(function(){
         $("#sideBar").slideUp(); 
     });
 });
