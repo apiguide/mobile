@@ -20,7 +20,7 @@
 	#sideBar-text:hover{
 		color: #56d0c1;
 		cursor: default;
-
+		border-bottom:1px solid #56d0c1;
 	}
 	
 	#searchmobile{
@@ -83,7 +83,7 @@
 		text-align:center;
 	}
 	a:hover{
-		border-bottom:2px solid #202020;	
+		border-bottom:.5px solid #202020;	
 	}
 	#links{
 		margin-top: -25%;
