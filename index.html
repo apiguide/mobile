@@ -1,20 +1,15 @@
 
-
 <!DOCTYPE html>
 <html>
 <head>
 	<title>The API Guide</title>
-	<!--SiteVersion :2.0-->
+	<!--SiteVersion :1.9-->
 	<!---Author : Smith Bhojak-->
-
-<script type="text/javascript">
-  <!--
- if (screen.width < 800) {
-    window.location = "http://apiguide.github.io/mobile";
+	<!--
+  if (screen.width > 800) {
+    window.location = "https://apiguide.github.io/main";
   }
   //-->
-</script>
-
 	<meta name="author" content="Smith Bhojak">
 	<meta name="keyword" content="Smith bhojak,bhojak,smith,sbhojak,api,apiguide,api+guide , Framework, guide+for+api,Google+api">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0 , user-scalable=no">
@@ -330,12 +325,11 @@ var ffresults = {
 </script>
 <!-- END of freefind onpage results html -->
 <div id="topbar">
-<span id="showmenu">
-	<i class="fa fa-bars" aria-hidden="true" id="desktophide" id="icon"></i>	
+<span id="showmenu" style="font-size: .7em;">
+	<i class="fa fa-bars" aria-hidden="true" id="desktophide" id="icon"> Menu</i>	
 </span>
-
-<span id="searchicon">
-	<i class="fa fa-search" aria-hidden="true" id="desktophide" ></i><br>
+<span id="searchicon" style="font-size: .7em;">
+	Search <i class="fa fa-search" aria-hidden="true" id="desktophide" > </i><br>
 </span>
 </div>
 <br>
@@ -360,6 +354,8 @@ var ffresults = {
 		<p id="sideBar-text"><i class="fa fa-newspaper-o" aria-hidden="true"></i> API News and Reviews <br><br></p>
 	</div>
 
+	
+	
 	<div id="contact" >
 		<p id="sideBar-text"><i class="fa fa-pencil" aria-hidden="true"></i> Contact us<br><br></p>
 	</div>
@@ -377,18 +373,19 @@ var ffresults = {
 	</div>
 
 	<div id="why">
+		You may be wondering why should i as a web developer use an <span style="color: #56d0c1;">API ...</span>
 		Using an API is like using the code or the functionality that have been already created by either
 		developers or Big companies like Google , Facebook , Twitter etc <br>
 		So in a sense you can write less yet at the same time do more with API
 
 	</div>
 
-	<div id="search" >
+	<div id="search" ><br><br>
 	<p id="searchtext">Enter The Name of the API <br>You would like to search
-<!-- start of freefind search box html -->
+	<!-- start of freefind search box html -->
 <table cellpadding=0 cellspacing=0 border=0 >
 <tr>
-	<td colspan=2 style="font-family: Arial, Helvetica, sans-serif; font-size: 2em;padding-left:120%; ">
+	<td colspan=2 style="font-family: Arial, Helvetica, sans-serif; ">
 		<form  id="ffresult_sbox0" style="margin:0px; margin-top:4px;" action="http://search.freefind.com/find.html" method="get" accept-charset="utf-8" onsubmit="ffresults.show(0);">
 		<input type="hidden" name="si" value="28639913">
 		<input type="hidden" name="pid" value="r">
@@ -396,33 +393,31 @@ var ffresults = {
 		<input type="hidden" name="_charset_" value="">
 		<input type="hidden" name="bcd" value="&#247;">
 		<input type="hidden" name="sbv" value="j1">
-		<input type="text" name="query" size="35"> 
-		<input type="submit" value="  Search... ">
+		<input type="text" name="query" size="15"> 
+		<input type="submit" value="   Search...    ">
 		</form>
 	</td>
 </tr>
 <tr>
-	</td>
 </tr>
 </table>
 <!-- end of freefind search box html -->
 
-<br>
-	
-		<p id="links">	
-
+	<p>
 	<a href="https://console.developers.google.com/apis/library">Google APIs<br><br></a>
 	<a href="https://developers.facebook.com/docs/plugins/">Facebook APIs<br><br></a>
 	<a href="https://dev.twitter.com/web/overview">Twitter APIs<br><br></a>
 	<a href="https://developers.google.com/youtube/iframe_api_reference">Youtube APIs<br><br></a>
 	<a href="http://api.jquery.com/">Jquery APIs<br><br></a>
 	More Coming Soon...
+	</p>
 	</div>
 	<div id="news">
-		<iframe src="progressbarr.html"></iframe>
-</div>
+		<i class="fa fa-clock-o fa-5x" aria-hidden="true"></i><br>
+		Work Under Progress
 
-	
+	</div>
+
 	
 <div id="contactdata">
 	<a href="https://www.Facebook.com/theapiguide">
@@ -442,8 +437,8 @@ var ffresults = {
 	<br>
 	<div class="fb-comments" data-href="https://apiguide.github.io/main" data-numposts="5"></div>
 
-	<p style="color:#202020;font-size: .5em;" id="mobilehide">Created and Supported By <a href="https://www.facebook.com/theapiguide">Team API Guide</a></p>
-	<p style="color:#202020;font-size: .7em;" id="desktophide">Created and Supported By <a href="https://www.facebook.com/theapiguide">Team API Guide</a></p>
+	<p style="color:#202020;font-size: .5em;" id="mobilehide">Desktop Design Created By <a href="https://bhojaksmith.github.io/aboutme">Smith Bhojak</a></p>
+	<p style="color:#202020;font-size: .7em;" id="desktophide">Mobile Design Created By <a href="https://bhojaksmith.github.io/aboutme">Smith Bhojak</a> and <a href="https://www.facebook.com/panchasara.bhavin.3">Bhavin Panchasara</a></p>
 
 	</div>
 	<div id="fb-root"></div>
@@ -475,22 +470,10 @@ var ffresults = {
     s.parentNode.insertBefore(gcse, s);
   })();
 </script>
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-90326326-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
 		<script type="text/javascript" src="script.js"></script>
 <link rel="stylesheet" type="text/css"  media="screen and (min-width: 800px)" href="large.css">		
- 	<link rel="stylesheet" type="text/css"  media="screen and (max-width:799px)"  href="medium.css">
-
  	<!--Mobile View-->		
- 	<link rel="stylesheet" type="text/css"  media="screen and (max-width: 500px)"  href="small.css">
-		</body>
+ 	<link rel="stylesheet" type="text/css"  media="screen and (max-width: 500px)"  href="small.css"></body>
 </html>
